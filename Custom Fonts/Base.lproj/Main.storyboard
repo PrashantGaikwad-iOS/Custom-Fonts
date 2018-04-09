@@ -1,24 +1,216 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LbO-33-Y0s">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="GreatVibes-Regular.otf">
+            <string>GreatVibes-Regular</string>
+        </array>
+        <array key="Lavanderia Regular.otf">
+            <string>Lavanderia-Regular</string>
+        </array>
+        <array key="Nickainley-Normal.otf">
+            <string>Nickainley-Normal</string>
+        </array>
+        <array key="aurella.script.ttf">
+            <string>Aurella-Script</string>
+        </array>
+        <array key="rochester.regular.ttf">
+            <string>Rochester-Regular</string>
+        </array>
+        <array key="sacramento.regular.ttf">
+            <string>Sacramento-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Custom Fonts-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Custom_Fonts" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit er elit lamet" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="drc-Yk-R7F">
+                                <rect key="frame" x="16" y="178" width="343" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="RqJ-qz-fqb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Aurella-Script" family="Aurella" pointSize="25"/>
+                                <color key="textColor" red="0.94901960780000005" green="0.14117647059999999" blue="0.41960784309999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit er elit lamet" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WdB-rU-9lc">
+                                <rect key="frame" x="16" y="275" width="343" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="aYD-As-D7k"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GreatVibes-Regular" family="Great Vibes" pointSize="30"/>
+                                <color key="textColor" red="0.94901960780000005" green="0.14117647059999999" blue="0.41960784309999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit er elit lamet" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jnp-5o-i3b">
+                                <rect key="frame" x="16" y="372" width="343" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Y3D-0t-sAd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lavanderia-Regular" family="Lavanderia" pointSize="30"/>
+                                <color key="textColor" red="0.94901960780000005" green="0.14117647059999999" blue="0.41960784309999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit er elit lamet" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hCT-JR-Oid">
+                                <rect key="frame" x="16" y="469" width="343" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="lHs-O9-QmM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Nickainley-Normal" family="Nickainley" pointSize="28"/>
+                                <color key="textColor" red="0.94901960780000005" green="0.14117647059999999" blue="0.41960784309999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit er elit lamet" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ZO-df-5GK">
+                                <rect key="frame" x="16" y="566" width="343" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="afs-BR-ZkA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Rochester-Regular" family="Rochester" pointSize="30"/>
+                                <color key="textColor" red="0.94901960780000005" green="0.14117647059999999" blue="0.41960784309999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rochester-Regular :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R4e-8y-wiU">
+                                <rect key="frame" x="16" y="537" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="7ak-ta-mny"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit er elit lamet" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gCS-n4-TMs">
+                                <rect key="frame" x="16" y="663" width="343" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="yeh-4k-tL5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Sacramento-Regular" family="Sacramento" pointSize="30"/>
+                                <color key="textColor" red="0.94901960780000005" green="0.14117647059999999" blue="0.41960784309999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aurella-Script :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f6R-zb-lOQ">
+                                <rect key="frame" x="16" y="149" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="MOG-bO-WBp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GreatVibes-Regular :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GUr-ih-HFp">
+                                <rect key="frame" x="16" y="246" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="vfT-F2-kMX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lavanderia-Regular :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DLJ-qE-6nw">
+                                <rect key="frame" x="16" y="343" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="psJ-ub-Z5S"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nickainley-Normal :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bHK-Fe-ac6">
+                                <rect key="frame" x="16" y="440" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Zjl-Rj-blf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sacramento-Regular :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EXl-Ic-Dcd">
+                                <rect key="frame" x="16" y="634" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="jtc-Xa-DKm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.77242257990059349" green="0.81576609781537046" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="EXl-Ic-Dcd" firstAttribute="top" secondItem="0ZO-df-5GK" secondAttribute="bottom" constant="8" id="1rQ-js-XQZ"/>
+                            <constraint firstItem="0ZO-df-5GK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="4h8-Qs-mXL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WdB-rU-9lc" secondAttribute="trailing" constant="16" id="6ta-bJ-JkN"/>
+                            <constraint firstItem="f6R-zb-lOQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="9y1-Q2-3ll"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="R4e-8y-wiU" secondAttribute="trailing" constant="16" id="CMZ-9l-qhP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bHK-Fe-ac6" secondAttribute="trailing" constant="16" id="ESX-8w-Acm"/>
+                            <constraint firstItem="f6R-zb-lOQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="61" id="Fcy-SL-2Nj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DLJ-qE-6nw" secondAttribute="trailing" constant="16" id="GGT-Vg-2DM"/>
+                            <constraint firstItem="jnp-5o-i3b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Gyg-Ho-PjI"/>
+                            <constraint firstItem="WdB-rU-9lc" firstAttribute="top" secondItem="GUr-ih-HFp" secondAttribute="bottom" constant="8" id="HFo-91-nB3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="drc-Yk-R7F" secondAttribute="trailing" constant="16" id="HU6-3V-hXE"/>
+                            <constraint firstItem="drc-Yk-R7F" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="JFZ-4R-SkQ"/>
+                            <constraint firstItem="hCT-JR-Oid" firstAttribute="top" secondItem="bHK-Fe-ac6" secondAttribute="bottom" constant="8" id="K4Z-Ko-aFZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hCT-JR-Oid" secondAttribute="trailing" constant="16" id="Ks3-Ec-uVo"/>
+                            <constraint firstItem="DLJ-qE-6nw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="L5I-VN-adN"/>
+                            <constraint firstItem="R4e-8y-wiU" firstAttribute="top" secondItem="hCT-JR-Oid" secondAttribute="bottom" constant="8" id="LHU-GC-eWa"/>
+                            <constraint firstItem="R4e-8y-wiU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="MRp-xK-eYt"/>
+                            <constraint firstItem="bHK-Fe-ac6" firstAttribute="top" secondItem="DLJ-qE-6nw" secondAttribute="bottom" constant="76" id="RmY-Uo-Q0H"/>
+                            <constraint firstItem="hCT-JR-Oid" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Shv-ve-mje"/>
+                            <constraint firstItem="bHK-Fe-ac6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="SiU-wB-gP1"/>
+                            <constraint firstItem="0ZO-df-5GK" firstAttribute="top" secondItem="R4e-8y-wiU" secondAttribute="bottom" constant="8" id="XWR-Py-YdH"/>
+                            <constraint firstItem="gCS-n4-TMs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Y5g-s2-bgI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jnp-5o-i3b" secondAttribute="trailing" constant="16" id="aml-5h-0NH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GUr-ih-HFp" secondAttribute="trailing" constant="16" id="c9h-wQ-Udo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="f6R-zb-lOQ" secondAttribute="trailing" constant="16" id="cUi-TE-h9R"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EXl-Ic-Dcd" secondAttribute="trailing" constant="16" id="fdV-pT-JtE"/>
+                            <constraint firstItem="WdB-rU-9lc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="gwc-P3-0Bj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0ZO-df-5GK" secondAttribute="trailing" constant="16" id="kf2-DC-QpM"/>
+                            <constraint firstItem="jnp-5o-i3b" firstAttribute="top" secondItem="DLJ-qE-6nw" secondAttribute="bottom" constant="8" id="nLz-Ys-cbO"/>
+                            <constraint firstItem="EXl-Ic-Dcd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="rQt-kv-jhQ"/>
+                            <constraint firstItem="gCS-n4-TMs" firstAttribute="top" secondItem="EXl-Ic-Dcd" secondAttribute="bottom" constant="8" id="rRM-wt-sPT"/>
+                            <constraint firstItem="GUr-ih-HFp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="uTt-T0-9So"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gCS-n4-TMs" secondAttribute="trailing" constant="16" id="uwg-8o-1ww"/>
+                            <constraint firstItem="DLJ-qE-6nw" firstAttribute="top" secondItem="GUr-ih-HFp" secondAttribute="bottom" constant="76" id="x2Y-9A-RKf"/>
+                            <constraint firstItem="drc-Yk-R7F" firstAttribute="top" secondItem="f6R-zb-lOQ" secondAttribute="bottom" constant="8" id="xS2-G8-XGX"/>
+                            <constraint firstItem="GUr-ih-HFp" firstAttribute="top" secondItem="drc-Yk-R7F" secondAttribute="bottom" constant="8" id="xU3-63-9rB"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Custom Fonts" id="s4n-TS-s0G"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="263.19999999999999" y="133.00492610837438"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cyM-BH-En0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LbO-33-Y0s" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LQy-Xz-5ED">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="XXD-yo-leq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fzd-He-thY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2298" y="133"/>
         </scene>
     </scenes>
 </document>

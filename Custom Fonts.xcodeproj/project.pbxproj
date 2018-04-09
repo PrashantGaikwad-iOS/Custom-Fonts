@@ -12,6 +12,13 @@
 		0D7CC3EB207B785E006F6D1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D7CC3E9207B785E006F6D1E /* Main.storyboard */; };
 		0D7CC3ED207B785E006F6D1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D7CC3EC207B785E006F6D1E /* Assets.xcassets */; };
 		0D7CC3F0207B785E006F6D1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D7CC3EE207B785E006F6D1E /* LaunchScreen.storyboard */; };
+		0D7CC404207B9855006F6D1E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D7CC3F1207B785E006F6D1E /* Info.plist */; };
+		0D7CC40B207B9A72006F6D1E /* aurella.script.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D7CC405207B9A1E006F6D1E /* aurella.script.ttf */; };
+		0D7CC40C207B9A72006F6D1E /* GreatVibes-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0D7CC406207B9A23006F6D1E /* GreatVibes-Regular.otf */; };
+		0D7CC40D207B9A72006F6D1E /* Lavanderia Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0D7CC407207B9A29006F6D1E /* Lavanderia Regular.otf */; };
+		0D7CC40E207B9A72006F6D1E /* Nickainley-Normal.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0D7CC408207B9A2D006F6D1E /* Nickainley-Normal.otf */; };
+		0D7CC40F207B9A72006F6D1E /* rochester.regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D7CC409207B9A32006F6D1E /* rochester.regular.ttf */; };
+		0D7CC410207B9A72006F6D1E /* sacramento.regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D7CC40A207B9A37006F6D1E /* sacramento.regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,12 @@
 		0D7CC3EC207B785E006F6D1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D7CC3EF207B785E006F6D1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D7CC3F1207B785E006F6D1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D7CC405207B9A1E006F6D1E /* aurella.script.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = aurella.script.ttf; sourceTree = "<group>"; };
+		0D7CC406207B9A23006F6D1E /* GreatVibes-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GreatVibes-Regular.otf"; sourceTree = "<group>"; };
+		0D7CC407207B9A29006F6D1E /* Lavanderia Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lavanderia Regular.otf"; sourceTree = "<group>"; };
+		0D7CC408207B9A2D006F6D1E /* Nickainley-Normal.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nickainley-Normal.otf"; sourceTree = "<group>"; };
+		0D7CC409207B9A32006F6D1E /* rochester.regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = rochester.regular.ttf; sourceTree = "<group>"; };
+		0D7CC40A207B9A37006F6D1E /* sacramento.regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sacramento.regular.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +67,7 @@
 		0D7CC3E4207B785E006F6D1E /* Custom Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				0D7CC403207B787B006F6D1E /* My Custom Font */,
 				0D7CC3E5207B785E006F6D1E /* AppDelegate.swift */,
 				0D7CC3E7207B785E006F6D1E /* ViewController.swift */,
 				0D7CC3E9207B785E006F6D1E /* Main.storyboard */,
@@ -62,6 +76,19 @@
 				0D7CC3F1207B785E006F6D1E /* Info.plist */,
 			);
 			path = "Custom Fonts";
+			sourceTree = "<group>";
+		};
+		0D7CC403207B787B006F6D1E /* My Custom Font */ = {
+			isa = PBXGroup;
+			children = (
+				0D7CC405207B9A1E006F6D1E /* aurella.script.ttf */,
+				0D7CC406207B9A23006F6D1E /* GreatVibes-Regular.otf */,
+				0D7CC407207B9A29006F6D1E /* Lavanderia Regular.otf */,
+				0D7CC408207B9A2D006F6D1E /* Nickainley-Normal.otf */,
+				0D7CC409207B9A32006F6D1E /* rochester.regular.ttf */,
+				0D7CC40A207B9A37006F6D1E /* sacramento.regular.ttf */,
+			);
+			path = "My Custom Font";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +150,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D7CC40B207B9A72006F6D1E /* aurella.script.ttf in Resources */,
+				0D7CC40C207B9A72006F6D1E /* GreatVibes-Regular.otf in Resources */,
+				0D7CC40D207B9A72006F6D1E /* Lavanderia Regular.otf in Resources */,
+				0D7CC40E207B9A72006F6D1E /* Nickainley-Normal.otf in Resources */,
+				0D7CC40F207B9A72006F6D1E /* rochester.regular.ttf in Resources */,
+				0D7CC410207B9A72006F6D1E /* sacramento.regular.ttf in Resources */,
 				0D7CC3F0207B785E006F6D1E /* LaunchScreen.storyboard in Resources */,
 				0D7CC3ED207B785E006F6D1E /* Assets.xcassets in Resources */,
 				0D7CC3EB207B785E006F6D1E /* Main.storyboard in Resources */,
+				0D7CC404207B9855006F6D1E /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H28X75MLUY;
 				INFOPLIST_FILE = "Custom Fonts/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.leftrightmind.Custom-Fonts";
@@ -289,6 +324,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H28X75MLUY;
 				INFOPLIST_FILE = "Custom Fonts/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.leftrightmind.Custom-Fonts";
